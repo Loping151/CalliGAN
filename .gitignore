@@ -1,7 +1,6 @@
-cmds.txt
-data
-data/
-data/*
+data/font_files
+data/fonts
 playground.ipynb
+log
 tmp
 ref

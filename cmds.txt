@@ -1,0 +1,6 @@
+conda create -n calligan  python=3.9
+conda activate calligan
+pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+pip3 install -r requirements.txt
+
+bash data/font2png.sh # 自己跑一下，核多的话两三分钟，支持跑一半掐了，不会影响，也不会重跑之前的
